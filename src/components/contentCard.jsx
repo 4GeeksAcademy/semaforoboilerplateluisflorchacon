@@ -1,9 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import CardFooter from "react-bootstrap/CardFooter";
-import button from "./botonsito";
-import { Button } from "react-bootstrap";
+import Boton from "./botonsito";
 
 function Cartas() {
   return (
@@ -22,7 +20,7 @@ function Cartas() {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-                <button />
+                <Boton />
             </Card.Footer>
           </Card>
         </Col>

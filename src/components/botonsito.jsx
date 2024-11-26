@@ -1,10 +1,10 @@
 import Button from 'react-bootstrap/Button';
 
-function button() {
+function Boton() {
   return (
     <>
       <Button variant="primary">Saber más</Button>
       </>
   )}
 
-export default button;
+export default Boton;
