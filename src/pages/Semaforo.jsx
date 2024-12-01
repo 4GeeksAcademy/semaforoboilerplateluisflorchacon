@@ -2,8 +2,6 @@ import React from "react";
 import { useState } from "react";
 
 import Luz from "../components/Luz";
-import Botonsito from "../components/Botonsito";
-
 
 function Semaforo () {
   const [colorEncendido, setColorEncendido] = useState("")
